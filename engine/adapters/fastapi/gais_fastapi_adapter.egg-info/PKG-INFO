@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: gais-fastapi-adapter
+Version: 0.1.0
+Summary: FastAPI adapter scaffold for the GAI-S governance engine.
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: fastapi<1.0,>=0.110
+Provides-Extra: dev
+Requires-Dist: pytest>=8.0.0; extra == "dev"
+Requires-Dist: ruff>=0.9.0; extra == "dev"
+
+# GAI-S FastAPI Adapter
+
+Development scaffold for FastAPI integration with the GAI-S reference engine.

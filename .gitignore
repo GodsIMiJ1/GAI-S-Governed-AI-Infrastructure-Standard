@@ -1,0 +1,8 @@
+engine/node_modules/
+engine/coverage/
+engine/dist/
+engine/.pytest_cache/
+engine/adapters/fastapi/.ruff_cache/
+engine/adapters/fastapi/.venv/
+__pycache__/
+*.pyc
