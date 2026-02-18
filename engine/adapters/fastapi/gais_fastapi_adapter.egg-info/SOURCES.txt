@@ -1,9 +1,0 @@
-README.md
-main.py
-pyproject.toml
-gais_fastapi_adapter.egg-info/PKG-INFO
-gais_fastapi_adapter.egg-info/SOURCES.txt
-gais_fastapi_adapter.egg-info/dependency_links.txt
-gais_fastapi_adapter.egg-info/requires.txt
-gais_fastapi_adapter.egg-info/top_level.txt
-tests/test_main.py

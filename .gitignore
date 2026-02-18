@@ -6,3 +6,6 @@ engine/adapters/fastapi/.ruff_cache/
 engine/adapters/fastapi/.venv/
 __pycache__/
 *.pyc
+*.egg-info/
+.eggs/
+build/
