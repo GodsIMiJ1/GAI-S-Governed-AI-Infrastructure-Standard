@@ -213,6 +213,7 @@ Regulatory alignment mappings are maintained in `/standard/`. GAI-S does not ass
 
 For the current implementation status and execution checklist, see [`IMPLEMENTATION_AUDIT_PLAN.md`](./IMPLEMENTATION_AUDIT_PLAN.md).
 For release/version tracking, see [`VERSION`](./VERSION), [`CHANGELOG.md`](./CHANGELOG.md), [`DEVLOG.md`](./DEVLOG.md), and [`standard/versioning-policy.md`](./standard/versioning-policy.md).
+For control-to-evidence traceability, see [`TRACEABILITY_MATRIX.md`](./TRACEABILITY_MATRIX.md).
 
 **For compliance and audit reviewers:** Begin with `/standard/gais-v1.0.pdf` for framework overview, then review `/standard/domain-specifications.md` and `/standard/certification-tier-specification.md` for normative requirements and evidence artifact definitions.
 

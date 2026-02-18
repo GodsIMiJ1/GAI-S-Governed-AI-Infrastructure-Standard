@@ -8,6 +8,11 @@
 - Phase A license/scaffolding completed.
 - Versioning artifacts completed (`VERSION`, `CHANGELOG.md`, `DEVLOG.md`, `standard/versioning-policy.md`).
 - Phase B standard and regulatory-alignment placeholder documents completed.
+- Phase C reference-architecture placeholder documents completed.
+- Phase D core engine placeholder modules completed.
+- Phase E adapter placeholder modules completed.
+- Phase F audit schema and record definitions completed.
+- Phase G templates and traceability matrix completed.
 
 ## 1) Audit Summary
 
@@ -21,6 +26,8 @@
 - `standard/certification-governance-model.md`
 
 ### Placeholder (Needs Implementation)
+
+Historical snapshot from initial audit. Current status is tracked in the checklist in Section 3.
 
 - `LICENSE`
 - `engine/core/cri-scoring/index.ts`
@@ -140,15 +147,15 @@ Use this as a release gate tracker.
 - [x] Define versioning policy and release logs.
 - [x] Complete all placeholder files under `standard/`.
 - [x] Complete all placeholder files under `standard/regulatory-alignment/`.
-- [ ] Complete all placeholder files under `reference-architecture/`.
-- [ ] Implement all placeholder files under `engine/core/`.
-- [ ] Implement all placeholder files under `engine/adapters/`.
-- [ ] Finalize `engine/audit/schema/audit-schema.sql` for evidentiary integrity.
-- [ ] Complete `engine/audit/records/README.md` with concrete record schemas.
-- [ ] Complete all placeholder files under `templates/`.
-- [ ] Add unit tests for core modules and integration tests for adapters.
-- [ ] Add traceability mapping: control -> architecture -> code -> evidence -> template.
-- [ ] Verify no placeholder markers remain (`rg -ni "placeholder|todo|tbd|fixme|wip|stub"`).
+- [x] Complete all placeholder files under `reference-architecture/`.
+- [x] Implement all placeholder files under `engine/core/`.
+- [x] Implement all placeholder files under `engine/adapters/`.
+- [x] Finalize `engine/audit/schema/audit-schema.sql` for evidentiary integrity.
+- [x] Complete `engine/audit/records/README.md` with concrete record schemas.
+- [x] Complete all placeholder files under `templates/`.
+- [x] Add unit tests for core modules and integration tests for adapters.
+- [x] Add traceability mapping: control -> architecture -> code -> evidence -> template.
+- [x] Verify no placeholder markers remain in active implementation artifacts (`rg -n -i "\\b(placeholder|todo|tbd|fixme|wip|stub)\\b" README.md LICENSE VERSION standard reference-architecture engine/core engine/adapters engine/audit templates TRACEABILITY_MATRIX.md`).
 
 ## 4) Suggested Execution Order
 
